@@ -61,19 +61,19 @@ const toggleTheme = (value: boolean) => {
             Home
           </Link>
         </NavbarItem>
-        {/* <NavbarItem >
-          <Link href="#Project" color="foreground" aria-current="page">
-            Projects
+        <NavbarItem >
+          <Link href="/cases" color="foreground" aria-current="page">
+            All Cases
           </Link>
         </NavbarItem>
-        <NavbarItem>
+        {/* <NavbarItem>
           <Link color="foreground" href="#experience">
             Experience
           </Link>
         </NavbarItem> */}
       </NavbarContent>
       <NavbarItem>
-        <Link color="foreground" href="#skills">
+        <Link color="foreground" href="/upload">
           Upload
         </Link>
       </NavbarItem>
