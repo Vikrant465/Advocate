@@ -6,7 +6,7 @@ import {
   ModalContent,
   ModalHeader,
   ModalBody,
-  ModalFooter,
+  // ModalFooter,
   Button,
   Form,
   Input,

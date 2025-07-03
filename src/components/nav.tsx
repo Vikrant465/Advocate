@@ -36,18 +36,17 @@ export default function Nav() {
     document.documentElement.classList.toggle("dark", prefersDark);
   }, []);
 
-  // Handle theme toggle
-  // @ts-ignore
-  const toggleTheme = (value) => {
-    setIsDark(value);
-    if (value) {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    }
-  };
+// Handle theme toggle
+const toggleTheme = (value: boolean) => {
+  setIsDark(value);
+  if (value) {
+    document.documentElement.classList.add("dark");
+    localStorage.setItem("theme", "dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+    localStorage.setItem("theme", "light");
+  }
+};
 
 
   return (
