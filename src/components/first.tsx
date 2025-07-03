@@ -9,7 +9,7 @@ export default function First() {
         <h1 className="text-5xl font-bold">Welcome to Advocate</h1>
         <p className="text-xl max-w-2xl">
           Advocate is your trusted platform to manage, upload, and view legal cases with ease.
-          Whether you're a client or a legal professional, our system helps streamline the legal process.
+          Whether youre a client or a legal professional, our system helps streamline the legal process.
         </p>
         <Button
           color="primary"
